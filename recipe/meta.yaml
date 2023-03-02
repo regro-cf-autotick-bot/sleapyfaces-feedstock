@@ -1,5 +1,5 @@
 {% set name = "sleapyfaces" %}
-{% set version = "1.2.9" %}
+{% set version = "1.2.9.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sleapyfaces-{{ version }}.tar.gz
-  sha256: 5615177d7808ed70c3964639b7bda9e69a237f5ec19f4a692dc612cdebdad48f
+  sha256: c6fc45f670df4b133b3d4958f4e447320dd3c437af8b89816b6003b479b3600e
 
 build:
   noarch: python
